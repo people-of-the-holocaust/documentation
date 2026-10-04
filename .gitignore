@@ -1,1 +1,37 @@
 .DS_Store
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# LaTeX indexes and glossaries
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# LaTeX build directories
+_minted-*/
+build/
+
+# Editor backup files
+*.bak
+*.swp
+*~
