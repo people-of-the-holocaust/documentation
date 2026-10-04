@@ -1,0 +1,22 @@
+\section{Constraints and Assumptions}
+
+\subsection{Constraints}
+
+\begin{enumerate}
+	\item The frontend is implemented using React, TypeScript, and Vite.
+	\item The frontend is expected to retrieve structured records from the project database.
+	\item The interactive map depends on LeafLet and OpenStreetMap tiles.
+	\item The interpreter is implemented in Python and requires Python 3.11 or later.
+	\item Database access requires credentials that must not be committed to version control.
+	\item The system must respect source permissions for encyclopedia content.
+\end{enumerate}
+
+\subsection{Assumptions}
+
+\begin{enumerate}
+	\item The project has permission to use the required source material.
+	\item Database records are populated before frontend deployment.
+	\item records with missing optional fields should not prevent the website from loading.
+	\item A sentence may refer to more that one person.
+	\item Some extracted activity records may be incomplete when parsing cannot confidently identify an action.
+\end{enumerate}

@@ -1,0 +1,10 @@
+
+% input a section from ./sections, takes filename (no .tex postfix)
+\newcommand{\inputsec}[1]{\input{sections/#1}}
+
+% code formatting
+\newcommand{\code}[1]{\texttt{#1}}
+\lstnewenvironment{codeblock}{}{}
+
+% requirement table helpers
+\newcommand{\reqrow}[3]{#1 & #2 & #3 \\\hline}

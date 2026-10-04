@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+
+% Import packages
+
+\usepackage[margin=1.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{pdfpages}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+
+% Configuration
+
+\setlist[itemize]{noitemsep, topsep=0.25\baselineskip}
+\setlist[enumerate]{noitemsep, topsep=0.25\baselineskip}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=true,
+  breakindent=1em,
+  frame=single,
+  columns=fullflexible,
+  aboveskip=0.5\baselineskip,
+  belowskip=0.5\baselineskip
+}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\captionsetup[figure]{margin=1.5cm,font=small,labelfont={bf},name={Figure},labelsep=colon,textfont={it}}
+\captionsetup[table]{margin=1.5cm,font=small,labelfont={bf},name={Table},labelsep=colon,textfont={it}}

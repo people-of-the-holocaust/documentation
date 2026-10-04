@@ -1,0 +1,28 @@
+\section{Introduction}
+
+\subsection{Purpose}
+This document defines the software requirements for the \textit{People of the Holocaust} senior design project. It describes the required behavior of the public website, database, data processing pipeline, \& testing processes.
+
+\subsection{Scope}
+\textit{People of the Holocaust} is a web based historical research tool that provides person centered information from the \textit{Encyclopedia of Camps and Ghettos}. The system will allow users to browse and search for people, places, and map locations. The system will eventually pull information from a database rather than CSV files - which is what it currently does.
+
+The project includes a Python interpreter for processing source text, a database for storing structured records, and a React frontend for displaying said records to users.
+
+\subsection{Definitions and Acronyms}
+
+\begin{longtable}{|p{0.24\textwidth}|p{0.66\textwidth}|}
+	\hline
+	\textbf{Term} & \textbf{Definition}                                                               \\
+	\hline
+	ECG           & Encyclopedia of Camps and Ghettos                                                 \\
+	\hline
+	Activity      & A structured record showing an action or event associated with a person or place. \\
+	\hline
+	Interpreter   & The Python data processing pipeline used to extract records from the ECG          \\
+	\hline
+	Frontend      & The React and Typescript web application used to show project data.               \\
+	\hline
+	Database      & Persistent data storage containing people, places, activities, \& map records.    \\
+	\hline
+\end{longtable}
+

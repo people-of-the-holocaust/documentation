@@ -1,0 +1,21 @@
+\section{Data Requirements}
+
+\begin{longtable}{|p{0.25\textwidth}|p{0.65\textwidth}|}
+	\hline
+	\textbf{Data Item}     & \textbf{Description}                                                                                                                \\
+	\hline
+	People Records         & records containing person identifiers, first names, last names, alternative names, titles, places, organizations, and designations. \\
+	\hline
+	Place Records          & Records containing place identifiers, names, types, subtypes, countries, and location identifiers.                                  \\
+	\hline
+	Activity Records       & Records connecting people, places, actions, and supporting sentence/paragraph details.                                              \\
+	\hline
+	Map Records            & Records containing place names, latitude, longitude, type, subtype, and current country for map display.                            \\
+	\hline
+	Article Source Records & Records identifying encyclopedia articles processed by the interpreter.                                                             \\
+	\hline
+	Error Logs             & Records of source articles or processing steps that failed during interpreter execution.                                            \\
+	\hline
+\end{longtable}
+
+The database will be the primary source for website data. The CSV and JSON files will be used during development, testing, or migration, but they are not the intended long-term data source.

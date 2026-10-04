@@ -1,0 +1,32 @@
+% People of the Holocaust - Software Requirements Specification
+% Senior Design
+
+\input{core/packages} % import and configure packages
+\input{core/commands} % define formatting aliases
+
+% customize title page text
+\newcommand{\doctitle}{People of the Holocaust}
+\newcommand{\docsubtitle}{Software Requirements Specification}
+\newcommand{\coursenum}{COSC 4920 - Principles of Design}
+\newcommand{\coursename}{Marquette University}
+\newcommand{\docversion}{1.0}
+
+\begin{document}
+
+% title and toc pages - leave these be
+\input{core/titlepage}
+\input{core/table_of_contents}
+
+% document sections - add/edit files in ./sections and include them here
+\inputsec{revision_history}
+\inputsec{introduction}
+\inputsec{overall_description}
+\inputsec{functional_requirements}
+\inputsec{nonfunctional_requirements}
+\inputsec{data_requirements}
+\inputsec{user_requirements}
+\inputsec{constraints_assumptions}
+\inputsec{acceptance_criteria}
+\inputsec{verification_plan}
+
+\end{document}
