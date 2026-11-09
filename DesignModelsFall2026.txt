@@ -314,11 +314,11 @@ records described by the domain model. Tables are grouped into three areas.
         position within its article and its start and end pages, and a unique
         index on article and position keeps paragraphs in order.
   \item \textbf{Places tables.} \texttt{Places} stores each location with its
-        type, country, and coordinates. \texttt{Where\_Place\_Mentioned} links
+        type, country, and coordinates. \texttt{Where\_\allowbreak Place\_\allowbreak Mentioned} links
         places to the paragraphs that mention them.
   \item \textbf{People tables.} \texttt{People} stores each person, and
         \texttt{Name\_Entry} stores every name under which a person is listed.
-        \texttt{Where\_Person\_Mentioned} links people to the paragraphs that
+        \texttt{Where\_\allowbreak Person\_\allowbreak Mentioned} links people to the paragraphs that
         mention them.
 \end{itemize}
 
